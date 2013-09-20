@@ -16,7 +16,7 @@ class Train
   #
   # Returns the Integer time of the trip.
   def trip_duration(distance)
-    distance * speed  
+    distance * @speed  
   end
 
   # Returns the String type of power for this train.
